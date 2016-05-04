@@ -21,5 +21,6 @@
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
+    <uses-permission android:name="android.permission.INTERNET"/>
     <allow-intent href="geo:*" />
 </widget>
