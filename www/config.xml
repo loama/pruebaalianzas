@@ -9,7 +9,7 @@
     <name>Rappi Alianzas</name>
 
     <description>
-        Manejo de alianzas de Rappi
+        App para manejo de las alianzas de Rappi
     </description>
 
     <author href="http://rappi.com" email="jlopez@rappi.com">
@@ -136,9 +136,10 @@
         <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows"   width="1152" height="1920" />
     </platform>
 
-    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="false">
         <false/>
     </gap:config-file>
+    <preference name="orientation" value="portrait" />
     <!--
         Define access to external domains.
 
